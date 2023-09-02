@@ -1,0 +1,629 @@
+/* Home Section */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Source Sans Pro" sans-serif;
+}
+.navbar {
+    position: sticky;
+}
+.navbar .word {
+    float: left;
+    width: 35%;
+    margin: 18px 0;
+    font-size: 24px;
+    font-weight: 800;
+}
+.navbar .word, .container .contain h1 {
+    color: #FF305B;
+}
+.navbar .navlist {
+    float: right;
+    width: 65%;
+    margin: 22px 0;
+}
+.clr {
+    clear: both;
+}
+.navbar .navlist li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.navbar .navlist li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.navbar .navlist li a:hover {
+    color: red;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Imges/First.jpg);
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    color: white;
+    position: relative;
+}
+.container .contain {
+    width: 100%;
+    position: absolute;
+    top: 25vh;
+}
+.container .contain h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.container .contain h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.container .contain h4 {
+    font-size: 32px;
+    font-weight: 300;
+    position: relative;
+}
+.container .contain h4::after {
+    content: "";
+    width: 3px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 3px;
+    left: 62.5%;
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+}
+/* Second Section About */
+.summary-child {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.summary-child .my-photo {
+    width: 40%;
+    height: 450px;
+    padding: 30px 0;
+    position: relative;
+    float: left;
+    text-align: right;
+}
+.summary-child .my-photo .photoborder {
+    position: absolute;
+    z-index: 1;
+    width: 68%;
+    height: 90%;
+    top: 0;
+    right: 40px;
+    border: 10px solid black;
+    border-radius: 5PX;
+    background-color: transparent;
+}
+.summary-child .my-photo #myphoto {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    overflow: hidden;
+    top: 40px;
+    right: 0;
+    z-index: 1;
+}
+.summary-child .my-photo #myphoto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5PX;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.hovpart .contain-hovpart {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translate(0,-50%);
+}
+.hovpart ol li {
+    float: left;
+    width: 15%;
+    text-align: center;
+    list-style: none;
+}
+.hovpart {
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5PX;
+    transition: 0.8s;
+}
+#myphoto:hover .hovpart{
+    top: 0;
+}
+.mywriting {
+    float: right;
+    width: 60%;
+    height: 500px;
+}
+.contain-mywriting {
+    width: 80%;
+    margin: auto;
+}
+.contain-mywriting h2 {
+    font-size: 34px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 15px;
+}
+.contain-mywriting h2::after {
+    content: "";
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 7px;
+    position: absolute;
+    background-color: red;
+}
+.contain-mywriting p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.contain-mywriting ol {
+    margin-top: 20px;
+}
+.contain-mywriting li {
+    width: 45%;
+    display:inline-block;
+    line-height: 40px;
+}
+.contain-mywriting span {
+    font-weight: bold;
+}
+.contain-mywriting .special a {
+    width: 20%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 20px 0 0;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* Third Section Servies */
+.servies {
+    text-align: center;
+    background-color: #F1F1F1;
+    position: relative;
+}
+.servies .servies-title, .Feedback-word, .blogwrite, .contact-us, .Portfolio-write {
+    padding: 80px 0 60px 0;
+    position: relative;
+}
+.servies h2, .blogwrite h2, .contact-us h2 {
+    font-size: 42px;
+    font-weight: 800;
+}
+.line1 {
+    width: 80px;
+    height: 0.2px;
+    background-color: rgb(183, 99, 99);
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.line2 {
+    width: 140px;
+    height: 0.2px;
+    background-color: rgb(183, 99, 99);
+    position: absolute;
+    top: 135px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.line3 {
+    width: 80px;
+    height: 0.2px;
+    background-color: rgb(241, 91, 91);
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.servies .services-section {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.servies .serv-contain {
+    float: left;
+    width: 25%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.serv-contain:hover {
+    background-color: white;
+    border-radius: 4px;
+}
+.serv-contain .box i {
+    transition: 1s;
+}
+.serv-contain:hover i {
+    transform: scale(1.3);
+}
+.serv-contain .box {
+    width: 100%;
+}
+.servies .services-section .icon {
+    padding: 20px 0 20px 0;
+}
+.servies .services-section h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.servies .services-section p {
+    font-size: 16px;
+    line-height: 30px;
+}
+/* Fourth Section portfolio */
+.the-portfolio .Portfolio-write h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+.the-portfolio .Portfolio-write, .portfolio-choosing {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.portfolio-choosing a {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.portfolio-pic .pictures {
+    width: 80%;
+    margin: 0 10% 5% 10%;
+}
+.portfolio-pic .pictures .contain-pic {
+    float: left;
+    width: 33.33%;
+}
+.portfolio-pic .pictures .contain-pic .pic {
+    margin: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.portfolio-pic .pictures .pic img {
+    width: 100%;
+}
+.layer {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 1s;
+}
+.contain-pic:hover .layer {
+    opacity: 1;
+}
+/* Five Section Testimonia */
+.numbers {
+    width: 100%;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+.numbers .num-container {
+    width: 80%;
+    margin: auto;
+    padding: 120px 0;
+}
+.num-container .num1, .num2, .num3, .num4 {
+    float: left;
+    width: 25%;
+}
+.numbers .num-container h3 {
+    font-size: 26px;
+    font-weight: 800;
+    padding: 30px 0;
+}
+.numbers .num-container h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+/* Section Six Feedback */
+.feedback .feedcontain {
+    width: 90%;
+    padding-bottom: 100px;
+    margin: auto;
+}
+.Feedback-word {
+    text-align: center;
+}
+.Feedback-word h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+.client-feedback {
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+.client-feedback .client-feed {
+    width: 100%;
+    margin: auto;
+    padding: 20px 20px;
+    background-color: #F1F1F1;
+    position: relative;
+    overflow: hidden;
+}
+.redbox {
+    position: absolute;
+    top: 0;
+    right: 950px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 200px 240px 0;
+    border-color: transparent red transparent transparent;
+    transform: skew(-45deg);
+}
+.stars ol li {
+    display: inline-block;
+    padding: 15px 0 30px 0;
+}
+.client-feedback .client-feed .write-feedback {
+    float: left;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+.client-feedback .client-feed .img-client {
+    width: 20%;
+}
+.client-feedback .client-feed img {
+    float: left;
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.client-feedback .client-feed .write-feedback {
+    width: 80%;
+}
+.client-feedback .client-feed .write-feedback h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0px 0 20px 0;
+}
+.client-feedback .client-feed .write-feedback a {
+    text-decoration: none;
+    color: cadetblue;
+}
+.write-feedback a i {
+    padding-right: 10px;
+}
+.write-feedback p {
+    line-height: 30px;
+    padding: 10px 0;
+}
+/* Seven Section Blog */
+.blog {
+    background-color: #F1F1F1;
+}
+.blog .blog-contain {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.blog .blog-contain .blog-inform {
+    width: 100%;
+}
+.blog .blog-contain .blogwrite {
+    text-align: center;
+}
+.blog .blog-contain .blog-inform .picture, .source {
+    width: 30%;
+    float: left;
+    background-color: white;
+    margin: 22.5px;
+}
+.blog .blog-contain .blog-inform .picture img, iframe {
+    width: 100%;
+}
+.picture img, iframe {
+    height: 252px;
+    border: none;
+}
+.picture .pic, .source .pic {
+    padding: 15px 20px;
+}
+.blog-inform p, a #anchor{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.blog-inform #anchor {
+    display: block;
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.blog-inform #imp {
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+/* Eight Section Contact */
+.contact {
+    background-color: white;
+}
+.contact .contain-contact {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.contact .contact-us {
+    width: 80%;
+    margin: auto;
+}
+.contact .contact-us h2 {
+    text-align: center;
+}
+.information {
+    width: 55%;
+    margin: auto;
+}
+.information .first-information {
+    width: 100%;
+}
+.first-information .name, .email {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+}
+.first-information .subject, .text-area {
+    width: 100%;
+    padding: 20px 0;
+}
+.first-information input, .subject input, .text-area textarea {
+    border-radius: 3px;
+}
+.first-information input, .subject input {
+    height: 30px;
+}
+#name, #email, #Subject, #Message {
+    padding: 10px;
+    margin: 10px;
+}
+.butt {
+    padding: 0 20px;
+    text-align: left;
+}
+.butt button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/* Final Section of the Web Page */
+.end {
+    background-color: black;
+}
+.end .final {
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.end .final ol li{
+    display: inline-block;
+    width: 15%;
+    padding-bottom: 30px;
+}
+.end .final ol li i {
+    color: white;
+}
+.end .final ol li a i:hover {
+    color: red;
+}
+.end .final p {
+    width: 100%;
+    color: white;
+}
+
+
+
+/* Some Animation in Numbers but only count for one time */
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+.fir-num {
+    animation: counter 2s linear forwards;
+    counter-reset: num var(--num);
+}
+.fir-num::after, .sec-num::after, .three-num::after, .four-num::after {
+    content: counter(num);
+}
+@keyframes counter {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 200;
+    }
+}
+.sec-num {
+    animation: counter-sec 2s linear forwards;
+    counter-reset: num var(--num);
+}
+@keyframes counter-sec {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 345;
+    }
+}
+.three-num {
+    animation: counter-three 2s linear forwards;
+    counter-reset: num var(--num);
+}
+@keyframes counter-three {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 1800;
+    }
+}
+.four-num {
+    animation: counter-four 2s linear forwards;
+    counter-reset: num var(--num);
+}
+@keyframes counter-four {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 1200;
+    }
+}
